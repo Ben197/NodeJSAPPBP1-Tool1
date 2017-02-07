@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: NodeJSAPPBP1
+  host: NodeJSAPPBP1
+  disk_quota: 1024M
+  services:
+  - NodeJSAPPBP1-cloudantNoSQLDB
